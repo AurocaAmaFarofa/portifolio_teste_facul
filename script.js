@@ -45,7 +45,7 @@ function escrever() {
 
     if (indexLetra === textos[indexTexto].length) {
       escrevendo = false;
-      setTimeout(escrever, 1500); // pausa antes de apagar
+      setTimeout(escrever, 1500); 
       return;
     }
   } else {
